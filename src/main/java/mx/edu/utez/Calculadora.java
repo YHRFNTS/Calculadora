@@ -8,8 +8,10 @@ public class Calculadora {
     // Atributo protegido
     protected String ultimaOperacion;
 
-    public double multiplicar() {
-        ultimaOperacion = "Multiplicación";
-        return numero1 * numero2;
+    // Constructor por defecto
+    public Calculadora() {
+        this.numero1 = 0;
+        this.numero2 = 0;
+        this.ultimaOperacion = "Ninguna";
     }
 }
