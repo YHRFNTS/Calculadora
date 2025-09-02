@@ -38,6 +38,7 @@ public class Calculadora {
         this.ultimaOperacion = "Ninguna";
     }
 
+<<<<<<< HEAD
     // Setters
     public void setNumero1(double numero1) {
         this.numero1 = numero1;
@@ -47,3 +48,15 @@ public class Calculadora {
         this.numero2 = numero2;
     }
 }
+=======
+    // Getter de numero1
+    public double getNumero1() {
+        return numero1;
+    }
+
+    // Getter de numero2
+    public double getNumero2() {
+        return numero2;
+    }
+}
+>>>>>>> 993d309a802622a32dc6f1dbb6fa177856c20fb5
