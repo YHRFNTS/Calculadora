@@ -14,4 +14,9 @@ public class Calculadora {
         this.numero2 = 0;
         this.ultimaOperacion = "Ninguna";
     }
+
+    public double multiplicar() {
+        ultimaOperacion = "Multiplicación";
+        return numero1 * numero2;
+    }
 }
