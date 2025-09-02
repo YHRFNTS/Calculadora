@@ -19,4 +19,14 @@ public class Calculadora {
         ultimaOperacion = "Multiplicación";
         return numero1 * numero2;
     }
+
+    public double dividir() {
+        ultimaOperacion = "División";
+        if (numero2 != 0) {
+            return numero1 / numero2;
+        } else {
+            System.out.println("⚠ Error: No se puede dividir entre 0");
+            return 0;
+        }
+    }
 }
