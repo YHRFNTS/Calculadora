@@ -29,6 +29,15 @@ public class Calculadora {
             return 0;
         }
     }
+    public double sumar() {
+        ultimaOperacion = "Suma";
+        return numero1 + numero2;
+    }
+
+    public double restar() {
+        ultimaOperacion = "Resta";
+        return numero1 - numero2;
+    }
 
 
     // Constructor con parámetros
@@ -36,10 +45,6 @@ public class Calculadora {
         this.numero1 = numero1;
         this.numero2 = numero2;
         this.ultimaOperacion = "Ninguna";
-    }
-    public double sumar() {
-        ultimaOperacion = "Suma";
-        return numero1 + numero2;
     }
 
     // Setters
@@ -50,8 +55,6 @@ public class Calculadora {
     public void setNumero2(double numero2) {
         this.numero2 = numero2;
     }
-
-    
 
     // Getter de numero1
     public double getNumero1() {
