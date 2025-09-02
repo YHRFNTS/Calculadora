@@ -42,4 +42,9 @@ public class Calculadora {
     public double getNumero1() {
         return numero1;
     }
+
+    // Getter de numero2
+    public double getNumero2() {
+        return numero2;
+    }
 }
